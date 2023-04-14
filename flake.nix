@@ -16,7 +16,7 @@
             pkgs.mkShell {
               buildInputs =
                 [
-                  p.go
+                  p.go_1_20
                   p.gopls
                   p.gotools
                   p.go-tools
